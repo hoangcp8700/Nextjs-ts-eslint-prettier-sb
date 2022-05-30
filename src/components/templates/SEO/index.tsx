@@ -1,7 +1,7 @@
 import Head from "next/head";
 
 
-function SEO({ seoData, ogData }: SEOType) {
+function SEO({ seoData, ogData, config}: SEOType) {
   // customize meta properties
   // you can pass them as an argument like title in case you want to change for each page
   const description = process.env.siteDescription;
@@ -50,21 +50,21 @@ function SEO({ seoData, ogData }: SEOType) {
       
       <link rel='manifest' href='/manifest.json' />
       <link
-        href='https://source.unsplash.com/random'
+        href={config.logo || 'https://source.unsplash.com/random'}
         rel='icon'
         type='image/png'
         sizes='16x16'
         data-purpose='any maskable'
       />
       <link
-        href='https://source.unsplash.com/random'
+        href={config.logo || 'https://source.unsplash.com/random'}
         rel='icon'
         type='image/png'
         sizes='32x32'
         data-purpose='any maskable'
       />
       <link rel='apple-touch-icon' href='/apple-icon.png' />
-      <meta name='theme-color' content='#EF4444' />
+      <meta name='theme-color' content={config.themeColor || '#EF4444'} />
     </Head>
   );
 }

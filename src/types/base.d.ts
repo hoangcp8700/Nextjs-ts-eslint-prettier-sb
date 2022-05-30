@@ -16,7 +16,7 @@ type OGData = {
   ogTitle?: string;
   ogImage?: string;
   ogDescription?: string;
-  ogType?: string;
+  ogUrl?: string;
 };
 
 type SEOType = {

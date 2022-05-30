@@ -2,6 +2,11 @@
 
 ## About Project
 
+## Note: 
+
+To use `Storybook`, please change to branch `develop-sb`
+
+
 ## Languages and Frameworks
 
 - CRA

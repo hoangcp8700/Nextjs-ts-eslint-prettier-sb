@@ -1,7 +1,7 @@
 import React from "react";
 // import styles from "./button.module.css";
 
-export type ButtonProps = {};
+export interface ButtonProps {}
 
 const Button: React.FC<ButtonProps> = () => <div>Component Button</div>;
 

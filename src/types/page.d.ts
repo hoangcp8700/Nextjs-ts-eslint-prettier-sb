@@ -1,12 +1,12 @@
-import { NextPage } from 'next'
-import { ComponentType, ReactElement, ReactNode } from 'react'
+import { NextPage } from "next";
+import { ComponentType, ReactElement, ReactNode } from "react";
 
+// eslint-disable-next-line @typescript-eslint/ban-types
 export type NextPageWithLayout<P = {}> = NextPage<P> & {
-  // eslint-disable-next-line no-unused-vars
-  getLayout?: (page: ReactElement) => ReactNode
-  layout?: ComponentType
-}
+  getLayout?: (page: ReactElement) => ReactNode;
+  layout?: ComponentType;
+};
 
 export type PageErrorProps = {
-  [statusCode: number]: ComponentType
-}
+  [statusCode: number]: ComponentType;
+};

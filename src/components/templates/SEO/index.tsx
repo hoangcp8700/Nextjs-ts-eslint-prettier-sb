@@ -10,7 +10,7 @@ function SEO({ title }: SEOProps) {
   const description = process.env.siteDescription;
   const keywords = process.env.siteKeywords;
   const siteURL = process.env.siteUrl;
-  const twitterHandle = process.env.twitterHandle;
+  const {twitterHandle} = process.env;
   const imagePreview = `${siteURL}/${process.env.siteImagePreviewUrl}`;
 
   return (
@@ -46,7 +46,7 @@ function SEO({ title }: SEOProps) {
         sizes='32x32'
         data-purpose='any maskable'
       />
-      <link rel='apple-touch-icon' href='/apple-icon.png'></link>
+      <link rel='apple-touch-icon' href='/apple-icon.png' />
       <meta name='theme-color' content='#EF4444' />
     </Head>
   );

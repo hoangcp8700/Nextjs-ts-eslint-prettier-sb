@@ -5,7 +5,7 @@
 ## Note: 
 
 To use `Storybook`, please change to branch `develop-sb`
-
+Then to start `Storybook` , run `yarn && yarn storybook`
 
 ## Languages and Frameworks
 

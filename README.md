@@ -4,8 +4,9 @@
 
 ## Note: 
 
-To use `Storybook`, please change to branch `develop-sb`
-
+```
+Please switch to the `develop-sb` branch to use `Storybook`. Then run `yarn && yarn storybook` to start `Storybook`.
+```
 
 ## Languages and Frameworks
 
@@ -27,7 +28,6 @@ To use `Storybook`, please change to branch `develop-sb`
 | /.hygen.js              | settings for `Hygen`                                               |
 | /\_templates/           | contains scaffolding templates based on `Hygen`                    |
 | /.vscode/               | settings for `Visual Studio Code` workspace                        |
-| /package.json           | manifest file for Node.js projects                                 |
 | /tsconfig.json          | settings for `TypeScript`                                          |
 | /public/                | root folder that gets served up as our next app.                   |
 | /src/components/        | contains Atomic Design components                                  |
@@ -35,6 +35,7 @@ To use `Storybook`, please change to branch `develop-sb`
 | /src/pages/             | contains pages                                                     |
 | /src/assets/            | contains images, movies, fonts                                     |
 | /src/store/             | contains shared store                                              |
+| /src/types/             | contains shared types                                              |
 | /src/services/          | contains shared services                                           |
 | /src/styles/            | contains common styles: breakpoints, colors, font, mixin, function |
 ---

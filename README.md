@@ -39,7 +39,6 @@
 | Path             | Purpose                             |
 | ---------------- | ----------------------------------- |
 | yarn dev         | start the project                   |
-| gen:component    | generate new `atomic` component     |
 | gen:page         | generate new page                   |
 | gen:component    | generate new component              |
 | gen:container    | generate new container              |

@@ -6,9 +6,9 @@ type OptionData = {
 }
 
 type SEOData = {
-  title?: string;
-  description?: string;
-  keyword?: string;
+  title: string;
+  description: string;
+  keyword: string;
   imgSrc?: string;
 };
 

@@ -5,7 +5,9 @@
 ## Note: 
 
 ```
-Please switch to the `develop-sb` branch to use `Storybook`. Then run `yarn && yarn storybook` to start `Storybook`.
+Please switch to the `develop-sb` branch to use `Storybook`.
+Use: git checkout develop-sb
+Then run `yarn && yarn storybook` to start `Storybook`
 ```
 
 ## Languages and Frameworks

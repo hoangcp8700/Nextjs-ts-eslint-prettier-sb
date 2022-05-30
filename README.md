@@ -28,7 +28,6 @@ Please switch to the `develop-sb` branch to use `Storybook`. Then run `yarn && y
 | /.hygen.js              | settings for `Hygen`                                               |
 | /\_templates/           | contains scaffolding templates based on `Hygen`                    |
 | /.vscode/               | settings for `Visual Studio Code` workspace                        |
-| /package.json           | manifest file for Node.js projects                                 |
 | /tsconfig.json          | settings for `TypeScript`                                          |
 | /public/                | root folder that gets served up as our next app.                   |
 | /src/components/        | contains Atomic Design components                                  |
@@ -36,6 +35,7 @@ Please switch to the `develop-sb` branch to use `Storybook`. Then run `yarn && y
 | /src/pages/             | contains pages                                                     |
 | /src/assets/            | contains images, movies, fonts                                     |
 | /src/store/             | contains shared store                                              |
+| /src/types/             | contains shared types                                              |
 | /src/services/          | contains shared services                                           |
 | /src/styles/            | contains common styles: breakpoints, colors, font, mixin, function |
 ---

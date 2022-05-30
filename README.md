@@ -38,7 +38,7 @@ Please switch to the `develop-sb` branch to use `Storybook`. Then run `yarn && y
 | /src/types/             | contains shared types                                              |
 | /src/services/          | contains shared services                                           |
 | /src/styles/            | contains common styles: breakpoints, colors, font, mixin, function,|
-|                                                  global                                      |
+|                         |                        global                                      |
 ---
 
 ## Command Line

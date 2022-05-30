@@ -37,7 +37,8 @@ Please switch to the `develop-sb` branch to use `Storybook`. Then run `yarn && y
 | /src/store/             | contains shared store                                              |
 | /src/types/             | contains shared types                                              |
 | /src/services/          | contains shared services                                           |
-| /src/styles/            | contains common styles: breakpoints, colors, font, mixin, function |
+| /src/styles/            | contains common styles: breakpoints, colors, font, mixin, function,|
+|                                                  global                                      |
 ---
 
 ## Command Line
@@ -58,16 +59,6 @@ Please switch to the `develop-sb` branch to use `Storybook`. Then run `yarn && y
 ### `Abem`
 
 <https://css-tricks.com/abem-useful-adaptation-bem/>
-
-**Note: Use only the `lowercase` format for `className`.**
-
-```tsx
-//GOOD 🏆🏆🏆
-export const Sample: React.FC = ({ children }) => <div className='a-sample'>{children}</div>;
-
-//NOT GOOD 💩💩💩
-export const Sample: React.FC = ({ children }) => <div className='a-Sample'>{children}</div>;
-```
 
 **Note: Use only the `Single_Underscore(_) && Single-Dash(-)` format for `className`.**
 
@@ -103,6 +94,12 @@ export const Sample = () => (
   </div>
 );
 
+export const Sample = () => (
+  <div className='a-sample'>
+    <span className='a-sample_element1_element2-primary'>Two elements</span>
+  </div>
+);
+
 //NOT GOOD 💩💩💩
 export const Sample = () => (
   <div className='a-sample'>
@@ -111,7 +108,7 @@ export const Sample = () => (
 );
 ```
 
-### `Atomic`
+### `Atomic Design`
 
 <https://bradfrost.com/blog/post/atomic-web-design/>
 
@@ -178,8 +175,8 @@ export const Component = () => {
 
 ```tsx
 //GOOD 🏆🏆🏆
-import Example from "components/atoms/Example";
+import Example from "@/components/atoms/Example";
 
 //NOT GOOD 💩💩💩
-import Example from "components/atoms/Example/index";
+import Example from "@/components/atoms/Example/index";
 ```

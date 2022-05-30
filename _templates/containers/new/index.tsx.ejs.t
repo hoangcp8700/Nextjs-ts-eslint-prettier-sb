@@ -2,6 +2,7 @@
 to: src/containers/<%= h.toPascalCase(name) %>/index.tsx
 ---
 import React from "react";
+// import styles from "./<%= h.toCamelCase(name) %>.module.css";
 
 export interface <%= h.toPascalCase(name) %>ContainerProps {}
 

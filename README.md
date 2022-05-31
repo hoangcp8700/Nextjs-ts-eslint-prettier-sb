@@ -43,7 +43,7 @@ yarn gen:page
 | ----------------------- | ------------------------------------------------------------------ |
 | /.storybook/            | contains Storybook config files                                    |
 | /.eslintrc              | settings for `ESLint`                                              |
-| /.husky                 | settings for `Husky`                                              |
+| /.husky                 | settings for `Husky`                                               |
 | /.hygen.js              | settings for `Hygen`                                               |
 | /\_templates/           | contains scaffolding templates based on `Hygen`                    |
 | /.vscode/               | settings for `Visual Studio Code` workspace                        |
@@ -51,13 +51,14 @@ yarn gen:page
 | /public/                | root folder that gets served up as our next app.                   |
 | /src/components/        | contains Atomic Design components                                  |
 | /src/container/         | contains Logic handler                                             |
-| /src/pages/             | contains pages                                                     |
-| /src/assets/            | contains images, movies, fonts                                     |
-| /src/store/             | contains shared store                                              |
+| /src/pages/             | handle fetching data api                                           |
+| /src/assets/            | contains images, icons, fonts, dummyData                           |
+| /src/store/             | contains shared store (Redux, Recoil,...)                          |
 | /src/types/             | contains shared types                                              |
 | /src/services/          | contains shared services                                           |
+| /src/hooks/             | contains custom hooks                                              |
+| /src/utils/             | contains functions, schemas, constants, ...others                  |
 | /src/styles/            | contains styles: breakpoints, colors, font, mixin, function, global|
----
 
 ## Command Line
 

@@ -2,7 +2,7 @@
 
 # About Pre-built Project
 
-This is a pre-built nextjs project that combines the `atoms design` structure with `eslint` and `prettier` to make a fantastic structure.
+This is a pre-built `nextjs` project that combines the `atoms design` structure with `eslint` and `prettier` to make a fantastic structure.
 
 ## Note: 
 
@@ -14,15 +14,13 @@ Then run `yarn && yarn storybook` to start `Storybook`
 
 ## Languages and Frameworks
 
-- CRA
 - TypeScript v4.7.2
 - NextJS v12.1.6
 - Hygen
 - Storybook v6 `(Note: change branch develop-db, branch default: develop)`
-- ESLint
-- Prettier
+- ESLint + Prettier
 - Husky + Lint-staged
-- 
+
 ## Getting Started Guide
 
 To create `components`, `containers`, `pages`

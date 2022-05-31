@@ -21,7 +21,9 @@ Change branch `develop-db`, default branch is `develop`
 
 #### To create `component`, `container`, `page`
 ```
-yarn gen:component`, `yarn gen:container`, `yarn gen:page
+yarn gen:component,
+yarn gen:container, 
+yarn gen:page
 ```
 
 ## Languages and Frameworks

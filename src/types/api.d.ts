@@ -1,3 +1,3 @@
 type ResponseAPIType = {
-    error: string
-}
+  error: string;
+};

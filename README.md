@@ -2,7 +2,7 @@
 
 # About Pre-built Project
 
-This is a pre-built `nextjs` project that combines the [`atoms design`](https://www.google.com) structure with `eslint` and `prettier` to make a fantastic structure.
+This is a pre-built `nextjs` project that combines the [`Atomic Design`](https://www.google.com](https://atomicdesign.bradfrost.com/chapter-2/)) structure with `eslint` and `prettier` to make a fantastic structure.
 
 ## Note: 
 
@@ -20,6 +20,7 @@ Then run `yarn && yarn storybook` to start `Storybook`
 - Storybook v6 `(Note: change branch develop-db, branch default: develop)`
 - ESLint + Prettier
 - Husky + Lint-staged
+- Atomic Design
 
 ## Getting Started Guide
 
@@ -122,22 +123,11 @@ export const Sample = () => (
 );
 ```
 
-### `Atomic Design`
-
-<https://bradfrost.com/blog/post/atomic-web-design/>
-
 ### `Components`
 
 - Use only `React-Hook`
 - Follow the `rules of hook` (<https://reactjs.org/docs/hooks-rules.html>)
 
-**Note: Use `mapModifiers` to generate `modifiers`.**
-
-```tsx
-export const Component: React.FC<Props> = (props) => (
-  <div className={mapModifiers("a-sample", props.modifiers)}>{props.children}</div>
-);
-```
 
 **Note: Use `// eslint-disable-next-line react-hooks/exhaustive-deps` when you want to avoid checking of the `useEffect` syntax (also on `useMemo & useCallback`)**
 

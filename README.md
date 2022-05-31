@@ -2,6 +2,8 @@
 
 ## About Project
 
+This is a pre-built project that combines the atoms design structure with eslint and prettier to make a fantastic structure.
+
 ## Note: 
 
 ```
@@ -20,7 +22,12 @@ Then run `yarn && yarn storybook` to start `Storybook`
 - ESLint
 - Prettier
 - Husky + Lint-staged
+- 
+## GUIDE
 
+To create `components`, `containers`, `pages` use `yarn gen:component`, `yarn gen:containers`, `yarn gen:page`
+
+--
 
 ## Files/Directories
 
@@ -52,12 +59,13 @@ Then run `yarn && yarn storybook` to start `Storybook`
 | gen:page         | generate new page                   |
 | gen:component    | generate new component              |
 | gen:container    | generate new container              |
-| yarn storybook   | run the storybook                   |
+| yarn sb          | run the storybook                   |
 | yarn lint        | run to check the syntax             |
 | yarn lint:fix    | run to fix the syntax               |
 | yarn prettier    | run to format code                  |
 
 ---
+
 
 ### `Abem`
 

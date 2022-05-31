@@ -17,7 +17,7 @@ This is a pre-built `nextjs` project that combines the [`Atomic Design`](https:/
 ## Getting Started Guide
 
 To create `components`, `containers`, `pages`
----> use `yarn gen:component`, `yarn gen:containers`, `yarn gen:page`
+---> `yarn gen:component`, `yarn gen:containers`, `yarn gen:page`
 
 To run project
 ---> `yarn && yarn start`

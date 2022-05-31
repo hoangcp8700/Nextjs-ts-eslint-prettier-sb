@@ -19,6 +19,7 @@ Then run `yarn && yarn storybook` to start `Storybook`
 - Storybook v6
 - ESLint
 - Prettier
+- Husky + Lint-staged
 
 
 ## Files/Directories

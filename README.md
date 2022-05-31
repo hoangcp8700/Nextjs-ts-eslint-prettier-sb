@@ -7,7 +7,7 @@ This is a pre-built `nextjs` project that combines the [`Atomic Design`](https:/
 ## Note: 
 
 ```
-If you want storybook, please switch to the `develop-sb` branch to use `Storybook` use  git checkout develop-sb.
+If you want `Storybook`, please switch to the `develop-sb` branch to use `Storybook` (default branch is develop) use `git checkout develop-sb`.
 Then run `yarn && yarn storybook` to start `Storybook`
 ```
 

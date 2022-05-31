@@ -28,6 +28,7 @@ Then run `yarn && yarn storybook` to start `Storybook`
 | ----------------------- | ------------------------------------------------------------------ |
 | /.storybook/            | contains Storybook config files                                    |
 | /.eslintrc              | settings for `ESLint`                                              |
+| /.husky                 | settings for `Husky`                                              |
 | /.hygen.js              | settings for `Hygen`                                               |
 | /\_templates/           | contains scaffolding templates based on `Hygen`                    |
 | /.vscode/               | settings for `Visual Studio Code` workspace                        |

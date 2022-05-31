@@ -4,13 +4,6 @@
 
 This is a pre-built `nextjs` project that combines the [`Atomic Design`](https://www.google.com](https://atomicdesign.bradfrost.com/chapter-2/)) structure with `eslint` and `prettier` to make a fantastic structure.
 
-## Note: 
-
-```
-If you want `Storybook`, please switch to the `develop-sb` branch to use `Storybook` (default branch is develop) use `git checkout develop-sb`.
-Then run `yarn && yarn storybook` to start `Storybook`
-```
-
 ## Languages and Frameworks
 
 - TypeScript v4.7.2

@@ -53,11 +53,16 @@
         "devDependencies": ["src/**/*.stories.tsx"]
       }
     ],
-    "@typescript-eslint/no-empty-interface": "off"
+    "@typescript-eslint/no-empty-interface": "off",
+    "@typescript-eslint/no-unused-vars": "error",
+    "@typescript-eslint/no-explicit-any": "error"
   },
   "settings": {
     "import/resolver": {
-      "typescript": {}
+      "typescript": {},
+      "node": {
+        "extensions": [".ts", ".tsx"]
+      }
     }
   }
 }

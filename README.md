@@ -10,18 +10,18 @@ if you run the project for the first time, run `yarn && yarn build && yarn start
 
 #### To run project
 ```
----> `yarn && yarn start`
+yarn && yarn start
 ```
 
 #### To run storybook
 ```
 Change branch `develop-db`, default branch is `develop`
----> `yarn && yarn sb`
+#### yarn && yarn sb
 ```
 
 #### To create `component`, `container`, `page`
 ```
----> `yarn gen:component`, `yarn gen:container`, `yarn gen:page`
+yarn gen:component`, `yarn gen:container`, `yarn gen:page
 ```
 
 ## Languages and Frameworks

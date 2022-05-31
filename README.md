@@ -16,7 +16,7 @@ Then run `yarn && yarn storybook` to start `Storybook`
 - TypeScript v4.7.2
 - NextJS v12.1.6
 - Hygen
-- Storybook v6
+- Storybook v6 `(Note: change branch develop-db, branch default: develop)`
 - ESLint
 - Prettier
 - Husky + Lint-staged

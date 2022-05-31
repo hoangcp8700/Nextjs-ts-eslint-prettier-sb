@@ -6,11 +6,11 @@ This is a pre-built `nextjs` project that combines the [`Atomic Design`](https:/
 
 ## Languages and Frameworks
 
-- TypeScript v4.7.2
 - NextJS v12.1.6
-- Hygen
+- TypeScript v4.7.2
 - Storybook v6 `(Note: change branch develop-db, branch default: develop)`
 - ESLint + Prettier
+- Hygen
 - Husky + Lint-staged
 - Atomic Design
 

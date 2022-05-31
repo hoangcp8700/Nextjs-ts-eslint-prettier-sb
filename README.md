@@ -4,6 +4,20 @@
 
 This is a pre-built `nextjs` project that combines the [`Atomic Design`](https://www.google.com](https://atomicdesign.bradfrost.com/chapter-2/)) structure with `eslint` and `prettier` to make a fantastic structure.
 
+## Getting Started Guide
+
+if you run the project for the first time, run ``yarn && yarn build && yarn start` command
+
+To run project
+---> `yarn && yarn start`
+
+To run storybook
+---> `yarn && yarn sb`
+
+To create `component`, `container`, `page`
+---> `yarn gen:component`, `yarn gen:container`, `yarn gen:page`
+
+
 ## Languages and Frameworks
 
 - NextJS v12.1.6
@@ -14,16 +28,6 @@ This is a pre-built `nextjs` project that combines the [`Atomic Design`](https:/
 - Husky + Lint-staged
 - Atomic Design
 
-## Getting Started Guide
-
-To create `component`, `container`, `page`
----> `yarn gen:component`, `yarn gen:container`, `yarn gen:page`
-
-To run project
----> `yarn && yarn start`
-
-To run storybook
----> `yarn && yarn sb`
 
 ## Files/Directories
 

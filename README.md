@@ -64,7 +64,7 @@ yarn gen:page
 
 | Path             | Purpose                             |
 | ---------------- | ----------------------------------- |
-| yarn dev         | start the project                   |
+| yarn start       | start the project                   |
 | gen:page         | generate new page                   |
 | gen:component    | generate new component              |
 | gen:container    | generate new container              |

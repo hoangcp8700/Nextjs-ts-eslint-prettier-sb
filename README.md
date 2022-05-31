@@ -23,11 +23,16 @@ Then run `yarn && yarn storybook` to start `Storybook`
 - Prettier
 - Husky + Lint-staged
 - 
-## GUIDE
+## Getting Started Guide
 
-To create `components`, `containers`, `pages` use `yarn gen:component`, `yarn gen:containers`, `yarn gen:page`
+To create `components`, `containers`, `pages`
+---> use `yarn gen:component`, `yarn gen:containers`, `yarn gen:page`
 
---
+To run project
+---> `yarn && yarn start`
+
+To run storybook
+---> `yarn && yarn sb`
 
 ## Files/Directories
 

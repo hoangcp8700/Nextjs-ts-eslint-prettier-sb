@@ -77,7 +77,7 @@ yarn gen:page
 
 ## Note for Error
 
-If `prettier` not working when save, install `prettier` extension in vscode and set it as defaukt
+If `prettier` not working when save, install `prettier` extension in vscode and set it as default.
 ...
 
 ---

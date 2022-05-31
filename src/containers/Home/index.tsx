@@ -2,10 +2,14 @@ import Image from "next/image";
 import type { NextPage } from "next";
 import Head from "next/head";
 
+import Icon, { iconList, IconName } from "@/components/atoms/Icon";
+import ImageComponent from "@/components/atoms/Image";
+
 import styles from "./home.module.css";
 
 export interface HomePageProps {}
 
+const listIcon = Object.keys(iconList).map((item) => item as IconName);
 const Home: NextPage<HomePageProps> = () => (
   <div className={styles.container}>
     <Head>
@@ -18,11 +22,25 @@ const Home: NextPage<HomePageProps> = () => (
       <h1 className={styles.title}>
         Welcome to <a href={`https://nextjs.org${"abc"}`}>Next.js!</a>
       </h1>
+      {listIcon.map((item, index) => (
+        <div key={`icon-${index.toString()}`} style={{ marginLeft: 7 }}>
+          <Icon iconName={item} size='32' isButton={index > 2} />
+        </div>
+      ))}
+
+      <ImageComponent
+        src='https://source.unsplash.com/random'
+        alt='alt'
+        width={300}
+        height={400}
+        layout='intrinsic'
+        placeholder='blur'
+        blurDataURL='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg=='
+      />
 
       <p className={styles.description}>
         Get started by editing <code className={styles.code}>pages/index.tsx</code>
       </p>
-
       <div className={styles.grid}>
         <a href='https://nextjs.org/docs' className={styles.card}>
           <h2>Documentation &rarr;</h2>

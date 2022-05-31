@@ -14,8 +14,8 @@ type OGData = {
 
 
 type ConfigData = {
- logo?: string;
- themeColor?: string
+  logo?: string;
+  themeColor?: string
 };
 
 type SEOType = {

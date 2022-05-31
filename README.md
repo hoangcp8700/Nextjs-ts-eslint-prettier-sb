@@ -2,7 +2,7 @@
 
 # About Pre-built Project
 
-This is a pre-built `nextjs` project that combines the `atoms design` structure with `eslint` and `prettier` to make a fantastic structure.
+This is a pre-built `nextjs` project that combines the [`atoms design`](https://www.google.com) structure with `eslint` and `prettier` to make a fantastic structure.
 
 ## Note: 
 

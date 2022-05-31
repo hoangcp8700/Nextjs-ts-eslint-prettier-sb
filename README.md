@@ -66,6 +66,12 @@ To create `component`, `container`, `page`
 
 ---
 
+## Note for Error
+
+if `prettier` not working when save, install `prettier` package vscode and set it as defaukt
+...
+
+---
 
 ### `Abem`
 

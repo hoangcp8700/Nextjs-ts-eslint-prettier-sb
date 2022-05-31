@@ -58,9 +58,6 @@
     "@typescript-eslint/no-explicit-any": "error"
   },
   "settings": {
-    "react": {
-      "version": "latest"
-    },
     "import/resolver": {
       "node": {
         "extensions": [".ts", ".tsx"]

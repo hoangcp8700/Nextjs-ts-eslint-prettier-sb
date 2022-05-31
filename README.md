@@ -8,20 +8,21 @@ This is a pre-built `nextjs` project that combines the [`Atomic Design`](https:/
 
 if you run the project for the first time, run `yarn && yarn build && yarn start` command
 
-To run project
+#### To run project
+```
 ---> `yarn && yarn start`
-
-To run storybook
 ```
 
+#### To run storybook
+```
 Change branch `develop-db`, default branch is `develop`
 ---> `yarn && yarn sb`
-
 ```
 
-To create `component`, `container`, `page`
+#### To create `component`, `container`, `page`
+```
 ---> `yarn gen:component`, `yarn gen:container`, `yarn gen:page`
-
+```
 
 ## Languages and Frameworks
 

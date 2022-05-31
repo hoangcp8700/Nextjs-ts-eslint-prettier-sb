@@ -12,7 +12,12 @@ To run project
 ---> `yarn && yarn start`
 
 To run storybook
+```
+
+Change branch `develop-db`, default branch is `develop`
 ---> `yarn && yarn sb`
+
+```
 
 To create `component`, `container`, `page`
 ---> `yarn gen:component`, `yarn gen:container`, `yarn gen:page`
@@ -22,7 +27,7 @@ To create `component`, `container`, `page`
 
 - NextJS v12.1.6
 - TypeScript v4.7.2
-- Storybook v6 (Note: if you want use `Storybook`, change branch `develop-db`, default branch is `develop`)
+- Storybook v6
 - ESLint + Prettier
 - Hygen
 - Husky + Lint-staged

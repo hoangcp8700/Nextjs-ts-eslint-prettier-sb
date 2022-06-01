@@ -4,7 +4,7 @@ import Text from "@/components/atoms/Text";
 import SEO from "@/components/templates/SEO";
 // import styles from "./aboutUs.module.css";
 
-export type AboutUsContainerProps = {};
+export interface AboutUsContainerProps {}
 
 const AboutUsContainer: React.FC<AboutUsContainerProps> = () => (
   <div>

@@ -12,13 +12,7 @@ type OGData = {
   ogUrl?: string;
 };
 
-type ConfigData = {
-  logo?: string;
-  themeColor?: string;
-};
-
 type SEOType = {
   seoData?: SEOData;
   ogData?: OGData;
-  config?: ConfigData;
 };

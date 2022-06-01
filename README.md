@@ -6,11 +6,9 @@ This is a pre-built `nextjs` project that combines the [`Atomic Design`](https:/
 
 ## Getting Started Guide
 
-if you run the project for the first time, run `yarn && yarn build && yarn start` command
-
 #### To run project
 ```
-yarn && yarn start
+yarn && yarn dev
 ```
 
 #### To run storybook

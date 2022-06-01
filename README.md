@@ -13,6 +13,12 @@ if you run the project for the first time, run `yarn && yarn build && yarn start
 yarn && yarn start
 ```
 
+#### To active `Prettier`
+```
+Step 1: install Prettier - Code formatter
+Step 2: set format default with Prettier
+```
+
 #### To run storybook
 ```
 Change branch `develop-db`, default branch is `develop`

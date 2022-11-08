@@ -18,7 +18,7 @@ const AboutUsContainer: React.FC<AboutUsContainerProps> = () => (
         ogTitle: "About Page",
         ogDescription: "About page Lorem",
         ogUrl: "https://google.com",
-        ogImage: "https://source.unsplash.com/random",
+        // ogImage: "https://source.unsplash.com/random",
       }}
     />
 

@@ -1,4 +1,4 @@
-import Image, { ImageProps } from "next/image";
+import Image, { ImageProps } from "next/legacy/image";
 import React from "react";
 
 export type ImageType = ImageProps & {
@@ -6,12 +6,17 @@ export type ImageType = ImageProps & {
   alt: string;
 };
 
-const myLoader = ({ src }: { src: string }) => `${src}`;
+// const myLoader = ({ src }: { src: string }) => `${src}`;
 
-const ImageComponent: React.FC<ImageType> = ({ wrapStyle, src, alt, ...props }) => (
+const NextImage: React.FC<ImageType> = ({ wrapStyle, src, alt, ...props }) => (
   <div className='a-image'>
-    <Image loader={myLoader} src={src} alt={alt} {...props} />
+    <Image
+      // loader={myLoader}
+      src={src}
+      alt={alt}
+      {...props}
+    />
   </div>
 );
 
-export default ImageComponent;
+export default NextImage;

@@ -1,17 +1,16 @@
 ---
 to: src/containers/<%= h.toPascalCase(name) %>/index.tsx
 ---
-import React from "react";
+import type { NextPage } from "next";
 
-import Text from "@/components/atoms/Text";
 import SEO from "@/components/templates/SEO";
 
 // import styles from "./<%= h.toCamelCase(name) %>.module.css";
 
 export interface <%= h.toPascalCase(name) %>ContainerProps {}
 
-const <%= h.toPascalCase(name) %>Container: React.FC<<%= h.toPascalCase(name) %>ContainerProps> = () => (
-  <div>
+const <%= h.toPascalCase(name) %>Container: NextPage<<%= h.toPascalCase(name) %>ContainerProps> = () => (
+  <div className="p-<%= name%>">
     <SEO
       seoData={{
         title: "<%= h.toPascalCase(name) %> Page",
@@ -22,10 +21,10 @@ const <%= h.toPascalCase(name) %>Container: React.FC<<%= h.toPascalCase(name) %>
         ogTitle: "<%= h.toPascalCase(name) %> Page",
         ogDescription: "<%= h.toPascalCase(name) %> page Lorem",
         ogUrl: "https://google.com",
-        ogImage: "https://source.unsplash.com/random",
+        // ogImage: "https://source.unsplash.com/random",
       }}
     />
-    <Text>Container <%= h.toPascalCase(name) %></Text>
+    <p>Container <%= h.toPascalCase(name) %></p>
   </div>
 );
 

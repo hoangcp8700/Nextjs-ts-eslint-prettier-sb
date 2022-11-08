@@ -1,16 +1,17 @@
-import Image from "next/image";
 import type { NextPage } from "next";
+import Link from "next/link";
 
 import Icon, { iconList, IconName } from "@/components/atoms/Icon";
-import ImageComponent from "@/components/atoms/Image";
+import NextImage from "@/components/atoms/Image";
 import SEO from "@/components/templates/SEO";
 
 import styles from "./home.module.css";
 
-export interface HomePageProps {}
+export interface HomeContainerProps {}
 
 const listIcon = Object.keys(iconList).map((item) => item as IconName);
-const Home: NextPage<HomePageProps> = () => (
+
+const Home: NextPage<HomeContainerProps> = () => (
   <div className={styles.container}>
     <SEO
       seoData={{
@@ -22,7 +23,7 @@ const Home: NextPage<HomePageProps> = () => (
         ogTitle: "Home Page",
         ogDescription: "Home page Lorem",
         ogUrl: "https://google.com",
-        ogImage: "https://source.unsplash.com/random",
+        // ogImage: "https://source.unsplash.com/random",
       }}
     />
 
@@ -36,12 +37,11 @@ const Home: NextPage<HomePageProps> = () => (
         </div>
       ))}
 
-      <ImageComponent
+      <NextImage
         src='https://source.unsplash.com/random'
         alt='alt'
         width={300}
         height={400}
-        layout='intrinsic'
         placeholder='blur'
         blurDataURL='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg=='
       />
@@ -50,42 +50,39 @@ const Home: NextPage<HomePageProps> = () => (
         Get started by editing <code className={styles.code}>pages/index.tsx</code>
       </p>
       <div className={styles.grid}>
-        <a href='https://nextjs.org/docs' className={styles.card}>
+        <Link href='https://nextjs.org/docs' className={styles.card}>
           <h2>Documentation &rarr;</h2>
           <p>Find in-depth information about Next.js features and API.</p>
-        </a>
+        </Link>
 
-        <a href='https://nextjs.org/learn' className={styles.card}>
+        <Link href='https://nextjs.org/learn' className={styles.card}>
           <h2>Learn &rarr;</h2>
           <p>Learn about Next.js in an interactive course with quizzes!</p>
-        </a>
+        </Link>
 
-        <a href='https://github.com/vercel/next.js/tree/canary/examples' className={styles.card}>
+        <Link href='https://github.com/vercel/next.js/tree/canary/examples' className={styles.card}>
           <h2>Examples &rarr;</h2>
           <p>Discover and deploy boilerplate example Next.js projects.</p>
-        </a>
+        </Link>
 
-        <a
+        <Link
           href='https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app'
           className={styles.card}
         >
           <h2>Deploy &rarr;</h2>
           <p>Instantly deploy your Next.js site to a public URL with Vercel.</p>
-        </a>
+        </Link>
       </div>
     </main>
 
     <footer className={styles.footer}>
-      <a
+      <Link
         href='https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app'
         target='_blank'
         rel='noopener noreferrer'
       >
         Powered by{" "}
-        <span className={styles.logo}>
-          <Image src='/vercel.svg' alt='Vercel Logo' width={72} height={16} />
-        </span>
-      </a>
+      </Link>
     </footer>
   </div>
 );
